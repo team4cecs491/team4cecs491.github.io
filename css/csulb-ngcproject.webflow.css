@@ -337,14 +337,14 @@ p {
 }
 .nav-links {
   padding-top: 32px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
   -webkit-transition: -webkit-transform 250ms ease;
   -o-transition: -o-transform 250ms ease;
   transition: -ms-transform 250ms ease;
   transition: transform 250ms ease;
   color: black;
-  font-size: 22px;
+  font-size: 20px;
 }
 .nav-links:hover {
   -webkit-transform: translate(0px, -5px);
@@ -397,7 +397,7 @@ p {
 }
 .slide.wing1 {
   margin-top: 0px;
-  background-color: rgba(255, 255, 255, 0.09);
+  background-color: rgba(255, 255, 255, 0.10);
 }
 .left-arrow {
   display: block;
@@ -508,6 +508,22 @@ p {
   -webkit-transition: none 0ms ease;
   -o-transition: none 0ms ease;
   transition: none 0ms ease;
+}
+.gallery {
+  padding-top: 30px;
+}
+.gallery-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.gallery-lightbox {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  box-shadow: black 0px 0px 6px 0px;
 }
 @media (max-width: 991px) {
   h1 {
